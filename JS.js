@@ -4,7 +4,6 @@ $(function(){
     $("div.dropdown-content").css("display","block");
   });
   $("button#MysteryButton").click(function(){
-    window.alert("Panthers are better than Penquins (sorry Savy)");
   });
 });
 
@@ -12,7 +11,6 @@ $(function(){
 
   //drop down controls
   function tabs(evt, tab) {
-    window.alert("mobile test");
     var  tabcontent, tablinks;
     $("div.dropdown-content").css("display","none");
     tabcontent = document.getElementsByClassName("tabcontent");
