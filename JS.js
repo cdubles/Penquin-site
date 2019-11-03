@@ -4,7 +4,7 @@ $(function(){
     $("div.dropdown-content").css("display","block");
   });
   $("button#MysteryButton").click(function(){
-    alert("Panthers are better than Penquins (sorry Savy)")
+    window.alert("Panthers are better than Penquins (sorry Savy)")
   });
 });
 
