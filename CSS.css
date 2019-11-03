@@ -1,0 +1,72 @@
+body{
+	background: yellow;
+	color:black;
+}
+/* drop down buttons css*/
+.dropbtn {
+  background-color: gray;
+  color: white;
+  padding: 16px;
+	border-radius: 8px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+	padding: 16px;
+	border-radius: 8px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content button:hover {background-color: red;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {
+	background-color: white;
+	color: black;
+	border: 2px solid gray;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* img css*/
+.ImgParent {
+  width: 60%;
+	display: inline-grid;
+	grid-template-columns:auto auto auto;
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+/* general css*/
+h2{
+	font-size:30px;
+	color:blue;
+}
