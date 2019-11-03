@@ -38,13 +38,11 @@ body{
 }
 
 .dropdown-content button:hover {background-color: red;}
-.dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {
 	background-color: white;
 	color: black;
 	border: 2px solid gray;
 }
-
 .tabcontent {
   display: none;
   padding: 6px 12px;
@@ -72,8 +70,8 @@ h2{
 }
 
 li{
-	font-size:30px;
+	font-size:3vw;
 }
 p{
-	font-size:30px;
+	font-size:3vw;
 }

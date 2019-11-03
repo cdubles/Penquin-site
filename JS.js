@@ -1,11 +1,15 @@
 $(function(){
-
+  $("button#dropbtn").click(function(){
+    $("div.dropdown-content").css("display","block");
+  });
 });
+
+
 
   //drop down controls
   function tabs(evt, tab) {
     var i, tabcontent, tablinks;
-
+    $("div.dropdown-content").css("display","none");
     tabcontent = document.getElementsByClassName("tabcontent");
     console.log(tabcontent.length);
     for (i = 0; i < tabcontent.length; i++) {
