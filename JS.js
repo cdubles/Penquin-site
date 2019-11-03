@@ -3,20 +3,23 @@ $(function(){
   $("button#dropbtn").click(function(){
     $("div.dropdown-content").css("display","block");
   });
+  $("button#MysteryButton").click(function(){
+    alert("Panthers are better than Penquins (sorry Savy)")
+  });
 });
 
 
 
   //drop down controls
   function tabs(evt, tab) {
-    var i, tabcontent, tablinks;
+    var  tabcontent, tablinks;
     $("div.dropdown-content").css("display","none");
     tabcontent = document.getElementsByClassName("tabcontent");
     console.log(tabcontent.length);
-    for (i = 0; i < tabcontent.length; i++) {
+    for (var i = 0; i < tabcontent.length; i++) {
       tabcontent[i].style.display = "none";
     }
-    
+
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].className = tablinks[i].className.replace("active", "");

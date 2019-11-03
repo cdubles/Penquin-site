@@ -1,7 +1,28 @@
+/* general css*/
 body{
 	background: yellow;
 	color:black;
 }
+h2{
+	font-size:30px;
+	color:blue;
+}
+
+li{
+	font-size:3vw;
+}
+p{
+	font-size:3vw;
+}
+button#MysteryButton{
+	background-color: blue;
+  color: white;
+  padding: 16px;
+	border-radius: 8px;
+  font-size: 16px;
+  border: none;
+}
+
 /* drop down buttons css*/
 .dropbtn {
   background-color: gray;
@@ -55,23 +76,11 @@ body{
   width: 80%;
 	display: inline-grid;
 	grid-template-columns:auto auto auto;
-	grid-column-gap: 5px;
-	grid-row-gap: 5px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
 }
 
 img {
   width: 100%;
   height: auto;
-}
-/* general css*/
-h2{
-	font-size:30px;
-	color:blue;
-}
-
-li{
-	font-size:3vw;
-}
-p{
-	font-size:3vw;
 }
