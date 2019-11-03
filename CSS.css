@@ -52,7 +52,7 @@ body{
 
 /* img css*/
 .ImgParent {
-  width: 60%;
+  width: 80%;
 	display: inline-grid;
 	grid-template-columns:auto auto auto;
 	grid-column-gap: 5px;
